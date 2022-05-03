@@ -12,6 +12,7 @@ val Teal200 = Color(0xFF03DAC5)
 
 val LightGray = Color(0xFFD8D8D8)
 val DarkGray = Color(0xFF2A2A2A)
+val StarColor = Color(0xFFFFC94D)
 
 val Colors.splashScreenBackground
     @Composable
@@ -50,3 +51,11 @@ val Colors.inactiveIndicatorColor
 val Colors.buttonBgColor
     @Composable
     get() = if (isLight) Purple500 else Purple700
+
+val Colors.topAppBarContentColor
+    @Composable
+    get() = if (isLight) Color.White else LightGray
+
+val Colors.topAppBarBgColor
+    @Composable
+    get() = if (isLight) Purple500 else Color.Black
