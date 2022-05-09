@@ -2,7 +2,8 @@ package dev.amal.borutoapp.util
 
 object Constants {
 
-    const val BASE_URL = "http://192.168.1.6:8080"
+//    const val BASE_URL = "http://192.168.1.6:8080"
+    const val BASE_URL = "https://ktor-boruto-server.herokuapp.com"
 
     const val DETAILS_ARGUMENT_KEY = "heroId"
 
@@ -18,4 +19,6 @@ object Constants {
 
     const val ITEMS_PER_PAGE = 3
     const val ABOUT_TEXT_MAX_LINES = 7
+
+    const val MIN_BACKGROUND_IMAGE_HEIGHT = 0.5f
 }
